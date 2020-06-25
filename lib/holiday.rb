@@ -36,8 +36,8 @@ end
 def add_supply_to_memorial_day(holiday_hash, supply)
   # again, holiday_hash is the same as the ones above
   # add the second argument to the memorial day array
-holiday_supplies[:spring][:memorial_day].push "Food"
-holiday_supplies[:spring][:memorial_day].push "Grill"
+holiday_supplies[:spring][:memorial_day].push "food"
+holiday_supplies[:spring][:memorial_day].push "supply"
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
@@ -48,6 +48,7 @@ end
 
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
+  
 
 end
 
